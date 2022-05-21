@@ -4,6 +4,7 @@ class LocationDetailCard extends StatelessWidget {
   final String? name;
   final String? description;
   final String? photoUrl;
+
   const LocationDetailCard({
     Key? key,
     this.name,
@@ -17,9 +18,7 @@ class LocationDetailCard extends StatelessWidget {
       margin: const EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: Colors.white54,
-        borderRadius: BorderRadius.circular(
-          20,
-        ),
+        borderRadius: BorderRadius.circular(20),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
